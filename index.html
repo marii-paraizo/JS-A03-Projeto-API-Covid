@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Gráficos Covid</title>
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+</style>
+
+<body>
+    <!-- Header do site -->
+    <header>
+        <img src="img/logo.png" alt="logo" width="auto">
+        <p>Dados e <br> Gráficos</p>
+    </header>
+
+    <!-- Menu do site -->
+    <nav>
+        <a href="index.html">Pagina inicial</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="equipe.html">Equipe do projeto</a>
+    </nav>
+
+    <!-- Miolo do site -->
+    <div id="container">
+        <h2 class="titulo-grafico">Casos confirmados pelo mundo:</h2>
+        <div id="grafico-mapa" style="height: 400px; justify-content: center;"></div>
+
+        <h2 class="titulo-grafico">Total de casos pelo mundo (Confirmados, Mortes, Recuperados):</h2>
+        <div id="grafico-pizza" style="height: 350px; justify-content: center;"></div>
+
+        <h2 class="titulo-grafico">Casos de COVID-19 em todos os estados do Brasil:</h2>
+        <div id="grafico-tabela" style="height: 400px;"></div>
+    </div>
+
+    <footer>
+        Projeto desenvolvido por alunas do 2º EM do
+        SESI de Barra Bonita – Curso Técnico em Desenvolvimento de
+        Sistemas.
+    </footer>
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="JS/script.js"></script>
+
+</html>

@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+header{
+    display: flex;
+    box-shadow: 3px 7px 12px #0000002f;
+    justify-content: center;
+    width: 100%;
+}  
+
+header img{
+    height: 130px;
+
+    padding-right: 10px;
+    margin: 5px 0px;
+}
+
+header p{
+    color: rgb(86, 86, 86);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Josefin Sans";
+    margin-top: 45px;
+}
+
+nav {
+    /*background-color: #497652;*/
+    background-color: #2f7b7e;
+    padding: 5px 0px 5px 25px;
+    margin: 10px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 10px 15px #0000002f;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+    margin-top: 20px;
+    font-size: 19px;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: "Josefin Sans";
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+#container{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabelas-mundiais{
+    display: flex;
+}
+
+#grafico-mapa{
+    margin-bottom: 5px;    
+    width: 100%;
+}
+
+#grafico-pizza{
+    margin-bottom: 5px;    
+    width: 100%;
+}
+
+.titulo-grafico{
+    background-color:  #b8e0e1;
+    padding: 20px;
+    font-family: "Josefin Sans";
+    margin-bottom: 5px;
+}
+
+#grafico-tabela{
+    justify-content: center;
+    margin-bottom: 5px;    
+    width: 100%;
+}
+
+footer{
+    background-color: #2f7b7e;
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+/* ---- Responsivo celular ---- */
+@media (max-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    header{
+        align-items: center;
+        text-align: center;
+    }
+
+    header p{
+        font-size: 30px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        margin: 10px ;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    nav a {
+        font-size: 17x;
+        padding: 5px 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container{
+        max-width: 100vw;
+        padding: 0px 10px;
+        text-align: center;
+    }
+
+    .titulo-grafico{
+        font-size: 20px;
+        text-align: left;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+}
